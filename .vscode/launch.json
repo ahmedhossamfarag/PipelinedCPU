@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PipelinedCPU}",
+            "name": "Debug PipelinedCPU",
+            "program": "${workspaceFolder:PipelinedCPU}\\.build\\debug\\PipelinedCPU.exe",
+            "preLaunchTask": "swift: Build Debug PipelinedCPU"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:PipelinedCPU}",
+            "name": "Release PipelinedCPU",
+            "program": "${workspaceFolder:PipelinedCPU}\\.build\\release\\PipelinedCPU.exe",
+            "preLaunchTask": "swift: Build Release PipelinedCPU"
+        }
+    ]
+}

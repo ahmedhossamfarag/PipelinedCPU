@@ -1,0 +1,6 @@
+test_SignalClass()
+test_ConnectFunc()
+test_SignalClass()
+test_MemoryClass()
+test_fetch()
+test_CPU()
