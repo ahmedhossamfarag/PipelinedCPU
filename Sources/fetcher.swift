@@ -1,5 +1,6 @@
 enum FetchError: Error{
     case UnexpectedInstruction(String)
+    case InvalidInput(String)
 }
 
 struct Instruction{
